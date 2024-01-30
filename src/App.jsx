@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import MobileNavbar from "./components/MobileNavbar";
 import DesktopNavbar from "./components/DesktopNavbar";
+import MainProduct from "./components/MainProduct";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -19,6 +20,7 @@ const App = () => {
     <>
       <MainWrapper>
         {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
+        <MainProduct/>
       </MainWrapper>
     </>
   );
