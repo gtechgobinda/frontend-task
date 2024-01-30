@@ -27,7 +27,6 @@ const DesktopNavbar = () => {
           </section>
         </div>
         <div className="nav-container">
-
           <section className="logo-container">
             <img src={CompanyLogo} alt="company logo" />
             <span className="logoText-container">
@@ -90,6 +89,16 @@ const DesktopNavbar = () => {
               <span>Hi, Ashish Sood</span>
             </section>
           </section>
+        </div>
+        <div className="category-section">
+          <span>NEW ARRIVAL</span>
+          <span>RINGS</span>
+          <span>EARRINGS</span>
+          <span>PENDANTS</span>
+          <span>BRACELETS & BANGLES</span>
+          <span>SOLITIARES</span>
+          <span>GOLD COINS</span>
+          <span>ALL JEWELLERY</span>
         </div>
       </DesktopNavbarWrapper>
     </>

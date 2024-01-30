@@ -123,4 +123,14 @@ export const DesktopNavbarWrapper = styled.nav`
       }
     }
   }
+  .category-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline:25px ;
+    padding-top: 10px ;
+    padding-bottom: 8px ;
+    background-color: #F5F5F5;
+    font-size: 13px;
+  }
 `;
