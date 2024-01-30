@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import MobileNavbar from "./components/MobileNavbar";
+import DesktopNavbar from "./components/DesktopNavbar";
 
 const Title = styled.h1`
   font-size: 15px;
@@ -9,7 +10,8 @@ const App = () => {
   return (
     <>
       <MainWrapper>
-        <MobileNavbar />
+        {/* <MobileNavbar /> */}
+        <DesktopNavbar/>
       </MainWrapper>
     </>
   );
