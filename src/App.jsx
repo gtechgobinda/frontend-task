@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import MobileNavbar from "./components/MobileNavbar";
 import DesktopNavbar from "./components/DesktopNavbar";
 
-const Title = styled.h1`
-  font-size: 15px;
-`;
 const App = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <>
       <MainWrapper>
-        {/* <MobileNavbar /> */}
-        <DesktopNavbar/>
+        {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
       </MainWrapper>
     </>
   );
