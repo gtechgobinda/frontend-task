@@ -33,7 +33,7 @@ export const ProductWrapper = styled.div`
     .miniProduct-section {
       div {
         width: 25px;
-        border: 1px solid #C4C4C4;
+        border: 1px solid #c4c4c4;
         border-radius: 50%;
         overflow: hidden;
         img {
@@ -41,5 +41,20 @@ export const ProductWrapper = styled.div`
         }
       }
     }
+    .playSection {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .zoom-text {
+    background: linear-gradient(to right, #ffd588, #e5e5e5, #ffd588);
+    font-size: 8px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
   }
 `;

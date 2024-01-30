@@ -24,7 +24,7 @@ const MainProduct = () => {
             </div>
           </section>
 
-          <section>
+          <section className="playSection">
             <div>
               <img src={left} alt="" />
             </div>
@@ -41,6 +41,9 @@ const MainProduct = () => {
             <img src={ellipse} alt="" />
             <img src={ellipse} alt="" />
           </section>
+        </div>
+        <div className="zoom-text">
+          PRODUCT SHOWN IN IMAGE IS IN 10X ZOOM FOR YOUR CLARITY
         </div>
       </ProductWrapper>
     </>
