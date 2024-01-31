@@ -4,6 +4,7 @@ import MobileNavbar from "./components/MobileNavbar";
 import DesktopNavbar from "./components/DesktopNavbar";
 import MainProduct from "./components/MainProduct";
 import MobilePriceSection from "./components/MobilePriceSection";
+import MobileCustomizeProduct from "./components/MobileCustomizeProduct";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -23,6 +24,7 @@ const App = () => {
         {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
         <MainProduct/>
         <MobilePriceSection/>
+        <MobileCustomizeProduct/>
       </MainWrapper>
     </>
   );

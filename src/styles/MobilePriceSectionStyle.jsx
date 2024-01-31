@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MobPriceSecWrapper = styled.div`
-  padding-inline: 15px;
+  padding-inline: 20px;
   padding-block: 20px;
   background: linear-gradient(
     to bottom,
