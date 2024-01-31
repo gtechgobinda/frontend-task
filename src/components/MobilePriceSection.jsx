@@ -7,6 +7,7 @@ const MobilePriceSection = () => {
   return (
     <>
       <MobPriceSecWrapper>
+        <section className="main-price-section">
         <div className="price-section">
           <span>₹34,948</span>
           <s>₹36,029</s>
@@ -38,6 +39,8 @@ const MobilePriceSection = () => {
             </section>
           </section>
         </div>
+        </section>
+
       </MobPriceSecWrapper>
     </>
   );

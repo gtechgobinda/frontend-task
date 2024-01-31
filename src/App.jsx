@@ -5,6 +5,7 @@ import DesktopNavbar from "./components/DesktopNavbar";
 import MainProduct from "./components/MainProduct";
 import MobilePriceSection from "./components/MobilePriceSection";
 import MobileCustomizeProduct from "./components/MobileCustomizeProduct";
+import ProductInformation from "./components/ProductInformation";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -22,9 +23,10 @@ const App = () => {
     <>
       <MainWrapper>
         {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
-        <MainProduct/>
-        <MobilePriceSection/>
-        <MobileCustomizeProduct/>
+        <MainProduct />
+        <MobilePriceSection />
+        <MobileCustomizeProduct />
+        <ProductInformation />
       </MainWrapper>
     </>
   );
