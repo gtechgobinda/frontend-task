@@ -8,6 +8,7 @@ import MobileCustomizeProduct from "./components/MobileCustomizeProduct";
 import ProductInformation from "./components/ProductInformation";
 import Boxes from "./components/fourbox/boxes";
 import CombinationBox from "./components/CombinationBox";
+import MoreRings from "./components/MoreRings";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -31,6 +32,7 @@ const App = () => {
         <ProductInformation />
         <Boxes/>
         <CombinationBox/>
+        <MoreRings/>
       </MainWrapper>
     </>
   );
