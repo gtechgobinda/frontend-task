@@ -7,6 +7,7 @@ import MobilePriceSection from "./components/MobilePriceSection";
 import MobileCustomizeProduct from "./components/MobileCustomizeProduct";
 import ProductInformation from "./components/ProductInformation";
 import Boxes from "./components/fourbox/boxes";
+import CombinationBox from "./components/CombinationBox";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -29,6 +30,7 @@ const App = () => {
         <MobileCustomizeProduct />
         <ProductInformation />
         <Boxes/>
+        <CombinationBox/>
       </MainWrapper>
     </>
   );
