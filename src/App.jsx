@@ -9,6 +9,7 @@ import ProductInformation from "./components/ProductInformation";
 import Boxes from "./components/fourbox/boxes";
 import CombinationBox from "./components/CombinationBox";
 import MoreRings from "./components/MoreRings";
+import PriceBreakupTable from "./components/PriceBreakupTable";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -33,6 +34,7 @@ const App = () => {
         <Boxes/>
         <CombinationBox/>
         <MoreRings/>
+        <PriceBreakupTable/>
       </MainWrapper>
     </>
   );
