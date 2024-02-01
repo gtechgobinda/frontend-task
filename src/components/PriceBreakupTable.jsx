@@ -142,10 +142,7 @@ const PriceBreakupTable = () => {
               {/* </section> */}
             </tbody>
           </table>
-          <div className="certified">
-            <span>100% Certified</span>
-            <span>International Standard</span>
-          </div>
+
         </div>
       </PriceTableWrapper>
     </>
