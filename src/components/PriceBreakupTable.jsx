@@ -110,21 +110,23 @@ const PriceBreakupTable = () => {
                 <td>-</td>
                 <td>₹4,144</td>
               </tr>
-              <tr>
+              <br />
+              <br />
+              <tr className="total-section">
                 <td>Subtoatal</td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td>₹33,631</td>
               </tr>
-              <tr>
+              <tr className="total-section">
                 <td>Tax</td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td>₹1,009</td>
               </tr>
-              <tr>
+              <tr className="total-section">
                 <td>
                   <b>Grand Total</b>
                 </td>
@@ -137,8 +139,13 @@ const PriceBreakupTable = () => {
                   <b>(MRP Incl. of all taxes)</b>
                 </td>
               </tr>
+              {/* </section> */}
             </tbody>
           </table>
+          <div className="certified">
+            <span>100% Certified</span>
+            <span>International Standard</span>
+          </div>
         </div>
       </PriceTableWrapper>
     </>

@@ -50,5 +50,12 @@ export const PriceTableWrapper = styled.div`
         align-items: flex-end; */
       /* text-align:start */
     }
+    .total-section{
+        background-color: #FAFAFA;
+        margin-top: 20px;
+    }
+.total-section{
+    background-color: #FAFAFA;
+}
   }
 `;
