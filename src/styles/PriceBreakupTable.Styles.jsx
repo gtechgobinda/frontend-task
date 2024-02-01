@@ -50,12 +50,22 @@ export const PriceTableWrapper = styled.div`
         align-items: flex-end; */
       /* text-align:start */
     }
-    .total-section{
-        background-color: #FAFAFA;
-        margin-top: 20px;
+    .total-section {
+      background-color: #fafafa;
+      margin-top: 20px;
     }
-.total-section{
-    background-color: #FAFAFA;
-}
+    .total-section {
+      background-color: #fafafa;
+    }
+    .certified {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 13px;
+      font-weight: 500;
+      color: #f77433;
+      margin-top: 10px;
+    }
   }
 `;
