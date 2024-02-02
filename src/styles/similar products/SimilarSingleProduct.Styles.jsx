@@ -5,6 +5,7 @@ export const SingleProductWrapper = styled.section`
     width: 180px;
     border-radius: 10px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
     overflow: hidden;
     /* padding: 10px; */
     .product-upper-section {
@@ -71,6 +72,7 @@ export const SingleProductWrapper = styled.section`
       .similar-text {
         display: flex;
         align-items: center;
+        margin-left: 5px;
         p {
           font-size: 11px;
           font-weight: 400;

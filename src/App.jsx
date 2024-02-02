@@ -13,6 +13,7 @@ import PriceBreakupTable from "./components/PriceBreakupTable";
 import MobileCertifate from "./components/MobileCertifate";
 import SocialMedia from "./components/SocialMedia";
 import SimilarSingleProduct from "./components/similar products/SimilarSingleProduct";
+import MobileAllSimilarProducts from "./components/similar products/MobileAllSimilarProducts";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -40,7 +41,8 @@ const App = () => {
         <PriceBreakupTable/>
         <MobileCertifate/>
         <SocialMedia/>
-        <SimilarSingleProduct/>
+        {/* <SimilarSingleProduct/> */}
+        <MobileAllSimilarProducts/>
       </MainWrapper>
     </>
   );
