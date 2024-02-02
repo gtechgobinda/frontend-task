@@ -4,6 +4,7 @@ export const StickyAddToCartWrapper = styled.div`
   .main-add-to-cart {
     position: fixed;
     bottom: 0;
+    z-index: 100;
     display: flex;
     flex-direction: row;
     justify-content: center;
