@@ -16,6 +16,7 @@ import SimilarSingleProduct from "./components/similar products/SimilarSinglePro
 import MobileAllSimilarProducts from "./components/similar products/MobileAllSimilarProducts";
 import MobileFindStore from "./components/find store/MobileFindStore";
 import MobileFindStoreCard from "./components/find store/MobileFindStoreCard";
+import { StickyAddToCart } from "./components/StickyAddToCart";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -47,6 +48,7 @@ const App = () => {
         <MobileAllSimilarProducts/>
         <MobileFindStore/>
         {/* <MobileFindStoreCard/> */}
+        <StickyAddToCart/>
       </MainWrapper>
     </>
   );
