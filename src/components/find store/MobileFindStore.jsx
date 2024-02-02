@@ -9,7 +9,7 @@ const MobileFindStore = () => {
   return (
     <>
       <MobFindStoreWrapper>
-        <div>
+        <div className="main-location-section">
           <div className="bg-location">
             <section className="findstore-text-section">
               <p className="text1">Find in Store near you!</p>
