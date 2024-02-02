@@ -11,6 +11,7 @@ import CombinationBox from "./components/CombinationBox";
 import MoreRings from "./components/MoreRings";
 import PriceBreakupTable from "./components/PriceBreakupTable";
 import MobileCertifate from "./components/MobileCertifate";
+import SocialMedia from "./components/SocialMedia";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -37,6 +38,7 @@ const App = () => {
         <MoreRings/>
         <PriceBreakupTable/>
         <MobileCertifate/>
+        <SocialMedia/>
       </MainWrapper>
     </>
   );
