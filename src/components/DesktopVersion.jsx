@@ -19,7 +19,7 @@ const DesktopVersion = () => {
           <SocialMedia />
           <DesktopSimilarStyle />
           <DesktopSimilarProducts />
-          <DesktopSimilarStyle />
+          <DesktopCompleteLook />
           <DesktopSimilarProducts />
           {/* <CombinationBox />
         <MoreRings />
@@ -45,6 +45,7 @@ import DesktopPriceBreakupTable from "./DesktopPriceBreakupTable";
 import DesktopCertifate from "./DesktopCertificate";
 import DesktopSimilarStyle from "./DesktopSimilarStyle";
 import DesktopSimilarProducts from "./DesktopSimilarProducts";
+import DesktopCompleteLook from "./DesktopCompleteLook";
 
 export const DesktopContainerWrapper = styled.section`
   .desktop-container {
