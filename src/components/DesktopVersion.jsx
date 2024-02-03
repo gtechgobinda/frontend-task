@@ -14,6 +14,7 @@ const DesktopVersion = () => {
           <ProductInfoAndFourBox />
           <DesktopCombinationAndMoreRings/>
           <DesktopPriceBreakupTable/>
+        <DesktopCertifate/>
           {/* <MobileCertifate/> */}
           <SocialMedia/>
           {/* <CombinationBox />
@@ -37,6 +38,7 @@ import PriceBreakupTable from "./PriceBreakupTable";
 import MobileCertifate from "./MobileCertifate";
 import SocialMedia from "./SocialMedia";
 import DesktopPriceBreakupTable from "./DesktopPriceBreakupTable";
+import DesktopCertifate from "./DesktopCertificate";
 
 
 export const DesktopContainerWrapper = styled.section`
