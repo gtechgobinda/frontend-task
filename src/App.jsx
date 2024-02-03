@@ -35,8 +35,9 @@ const App = () => {
     <>
       <MainWrapper>
         {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
+        {windowWidth <= 767 ? <MainProduct /> : <DesktopMainProduct/>}
         {/* <MainProduct /> */}
-        <DesktopMainProduct/>
+        {/* <DesktopMainProduct/> */}
         <MobilePriceSection />
         <MobileCustomizeProduct />
         <ProductInformation />
