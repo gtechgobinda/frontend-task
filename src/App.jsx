@@ -35,23 +35,25 @@ const App = () => {
     <>
       <MainWrapper>
         {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
-        {windowWidth <= 767 ? <MainProduct /> : <DesktopMainProduct/>}
+        {windowWidth <= 767 ? <MainProduct /> : <DesktopMainProduct />}
         {/* <MainProduct /> */}
         {/* <DesktopMainProduct/> */}
-        <MobilePriceSection />
-        <MobileCustomizeProduct />
+        {windowWidth <= 767 ? <MobilePriceSection /> : null}
+        {windowWidth <= 767 ? <MobileCustomizeProduct /> : null}
+        {/* <MobilePriceSection /> */}
+        {/* <MobileCustomizeProduct /> */}
         <ProductInformation />
-        <Boxes/>
-        <CombinationBox/>
-        <MoreRings/>
-        <PriceBreakupTable/>
-        <MobileCertifate/>
-        <SocialMedia/>
+        <Boxes />
+        <CombinationBox />
+        <MoreRings />
+        <PriceBreakupTable />
+        <MobileCertifate />
+        <SocialMedia />
         {/* <SimilarSingleProduct/> */}
-        <MobileAllSimilarProducts/>
-        <MobileFindStore/>
+        <MobileAllSimilarProducts />
+        <MobileFindStore />
         {/* <MobileFindStoreCard/> */}
-        <StickyAddToCart/>
+        <StickyAddToCart />
       </MainWrapper>
     </>
   );
