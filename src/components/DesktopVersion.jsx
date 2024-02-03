@@ -12,12 +12,15 @@ const DesktopVersion = () => {
         <div className="desktop-container">
           <DesktopMainProduct />
           <ProductInfoAndFourBox />
-          <DesktopCombinationAndMoreRings/>
-          <DesktopPriceBreakupTable/>
-        <DesktopCertifate/>
+          <DesktopCombinationAndMoreRings />
+          <DesktopPriceBreakupTable />
+          <DesktopCertifate />
           {/* <MobileCertifate/> */}
-          <SocialMedia/>
-          <DesktopSimilarStyle/>
+          <SocialMedia />
+          <DesktopSimilarStyle />
+          <DesktopSimilarProducts />
+          <DesktopSimilarStyle />
+          <DesktopSimilarProducts />
           {/* <CombinationBox />
         <MoreRings />
         <PriceBreakupTable />
@@ -41,10 +44,9 @@ import SocialMedia from "./SocialMedia";
 import DesktopPriceBreakupTable from "./DesktopPriceBreakupTable";
 import DesktopCertifate from "./DesktopCertificate";
 import DesktopSimilarStyle from "./DesktopSimilarStyle";
-
+import DesktopSimilarProducts from "./DesktopSimilarProducts";
 
 export const DesktopContainerWrapper = styled.section`
-
   .desktop-container {
   }
 `;
