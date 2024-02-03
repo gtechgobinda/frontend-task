@@ -17,6 +17,7 @@ import MobileAllSimilarProducts from "./components/similar products/MobileAllSim
 import MobileFindStore from "./components/find store/MobileFindStore";
 import MobileFindStoreCard from "./components/find store/MobileFindStoreCard";
 import { StickyAddToCart } from "./components/StickyAddToCart";
+import DesktopMainProduct from "./components/DesktopMainProduct";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -34,7 +35,8 @@ const App = () => {
     <>
       <MainWrapper>
         {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
-        <MainProduct />
+        {/* <MainProduct /> */}
+        <DesktopMainProduct/>
         <MobilePriceSection />
         <MobileCustomizeProduct />
         <ProductInformation />
