@@ -18,6 +18,9 @@ import MobileFindStore from "./components/find store/MobileFindStore";
 import MobileFindStoreCard from "./components/find store/MobileFindStoreCard";
 import { StickyAddToCart } from "./components/StickyAddToCart";
 import DesktopMainProduct from "./components/DesktopMainProduct";
+import DesktopProductInformation from "./components/DesktopProductInformation";
+import ProductInfoAndFourBox from "./components/ProductInfoAndFourBox";
+import DesktopVersion from "./components/DesktopVersion";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -33,27 +36,41 @@ const App = () => {
   }, []);
   return (
     <>
-      <MainWrapper>
-        {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />}
-        {windowWidth <= 767 ? <MainProduct /> : <DesktopMainProduct />}
-        {/* <MainProduct /> */}
-        {/* <DesktopMainProduct/> */}
-        {windowWidth <= 767 ? <MobilePriceSection /> : null}
-        {windowWidth <= 767 ? <MobileCustomizeProduct /> : null}
-        {/* <MobilePriceSection /> */}
-        {/* <MobileCustomizeProduct /> */}
-        <ProductInformation />
-        <Boxes />
-        <CombinationBox />
+      {/* <MainWrapper> */}
+      {/* {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />} */}
+      {/* {windowWidth <= 767 ? <MainProduct /> : <DesktopMainProduct />} */}
+      {/* <MainProduct /> */}
+      {/* <DesktopMainProduct/> */}
+      {/* {windowWidth <= 767 ? <MobilePriceSection /> : null} */}
+      {/* {windowWidth <= 767 ? <MobileCustomizeProduct /> : null} */}
+      {/* <MobilePriceSection /> */}
+      {/* <MobileCustomizeProduct /> */}
+
+      {/* {windowWidth <= 767 ? (
+          <ProductInformation />
+        ) : (
+          null
+        )} */}
+      {/* <ProductInformation /> */}
+
+      {/* {windowWidth <= 767 ? <Boxes /> : null} */}
+      {/* <Boxes /> */}
+      {/* {windowWidth <= 767 ? null : <ProductInfoAndFourBox />} */}
+
+      {/* <CombinationBox />
         <MoreRings />
         <PriceBreakupTable />
         <MobileCertifate />
-        <SocialMedia />
-        {/* <SimilarSingleProduct/> */}
-        <MobileAllSimilarProducts />
-        <MobileFindStore />
-        {/* <MobileFindStoreCard/> */}
-        <StickyAddToCart />
+        <SocialMedia /> */}
+      {/* <SimilarSingleProduct/> */}
+      {/* <MobileAllSimilarProducts />
+        <MobileFindStore /> */}
+      {/* <MobileFindStoreCard/> */}
+      {/* <StickyAddToCart /> */}
+      {/* </MainWrapper> */}
+
+      <MainWrapper>
+        <DesktopVersion />
       </MainWrapper>
     </>
   );
