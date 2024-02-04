@@ -21,6 +21,7 @@ import DesktopMainProduct from "./components/DesktopMainProduct";
 import DesktopProductInformation from "./components/DesktopProductInformation";
 import ProductInfoAndFourBox from "./components/ProductInfoAndFourBox";
 import DesktopVersion from "./components/DesktopVersion";
+import MobileVersion from "./components/MobileVersion";
 
 const App = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -70,7 +71,7 @@ const App = () => {
       {/* </MainWrapper> */}
 
       <MainWrapper>
-        <DesktopVersion />
+        {windowWidth <= 767 ? <MobileVersion /> : <DesktopVersion />}
       </MainWrapper>
     </>
   );
