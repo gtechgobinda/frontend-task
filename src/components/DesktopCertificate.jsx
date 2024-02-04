@@ -6,8 +6,8 @@ import {
 import igilogo from "../assets/igilogo.svg";
 import bislogo from "../assets/bis-color.svg";
 import garnetlogo from "../assets/garnetlogo2.svg";
-import { DesktopCertifyWrapper } from "../styles/DesktopCertificate.Stylesjsx";
-import { AllDesktopCertifyWrapper } from "../styles/DesktopCertificate.Stylesjsx";
+import { DesktopCertifyWrapper } from "../styles/DesktopCertificate.Styles.jsx";
+import { AllDesktopCertifyWrapper } from "../styles/DesktopCertificate.Styles.jsx";
 const DesktopCertifate = () => {
   return (
     <>
