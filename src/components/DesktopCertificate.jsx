@@ -12,12 +12,6 @@ const DesktopCertifate = () => {
   return (
     <>
       <DesktopCertifyWrapper>
-        <div>
-          <div className="certified">
-            <span>100% Certified</span>
-            <span>International Standard</span>
-          </div>
-        </div>
         <AllDesktopCertifyWrapper>
           <div className="certify-container">
             <div className="certify-heading">
