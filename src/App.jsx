@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import DesktopVersion from "./components/DesktopVersion";
 import MobileVersion from "./components/MobileVersion";
-import {MainWrapper } from "./App.Styles"
+import {MainWrapper } from "./styles/App.Styles"
 const App = () => {
   return (
     <>
