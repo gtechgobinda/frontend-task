@@ -15,22 +15,12 @@ const DesktopVersion = () => {
           <DesktopCombinationAndMoreRings />
           <DesktopPriceBreakupTable />
           <DesktopCertifate />
-          {/* <MobileCertifate/> */}
-          {/* <SocialMedia /> */}
           <DesktopSimilarStyle />
           <DesktopSimilarProducts />
           <DesktopCompleteLook />
           <DesktopSimilarProducts />
           <DesktopFindStore/>
           <Footer/>
-          {/* <CombinationBox />
-        <MoreRings />
-        <PriceBreakupTable />
-        <MobileCertifate />
-        <SocialMedia />
-        <MobileAllSimilarProducts />
-        <MobileFindStore />
-        <StickyAddToCart /> */}
         </div>
       </DesktopContainerWrapper>
     </>
