@@ -1,6 +1,20 @@
 import styled from "styled-components";
 
 export const ProductWrapper = styled.div`
+.lime-light-degree{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline:15px;
+  .lime-light{
+    font-size: 11px;
+    font-weight: 500;
+    background: linear-gradient(to right,rgba(229, 229, 229, 1),rgba(229, 229, 229, 0));
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+}
   .ring-band-img {
     display: flex;
     justify-content: center;

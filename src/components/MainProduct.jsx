@@ -7,10 +7,15 @@ import playButton from "../assets/main product/playButton.svg";
 import left from "../assets/main product/left.svg";
 import right from "../assets/main product/right.svg";
 import ellipse from "../assets/main product/Ellipse.svg";
+import degree from "../assets/main product/degree.svg";
 const MainProduct = () => {
   return (
     <>
       <ProductWrapper>
+        <div className="lime-light-degree">
+          <span className="lime-light">LIME LIGHT</span>
+          <img src={degree} alt="" />
+        </div>
         <div className="ring-band-img">
           <img src={RingBand} alt="" />
         </div>
