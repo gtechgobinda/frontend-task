@@ -1,90 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import MobileNavbar from "./components/MobileNavbar";
-import DesktopNavbar from "./components/DesktopNavbar";
-import MainProduct from "./components/MainProduct";
-import MobilePriceSection from "./components/MobilePriceSection";
-import MobileCustomizeProduct from "./components/MobileCustomizeProduct";
-import ProductInformation from "./components/ProductInformation";
-import Boxes from "./components/fourbox/boxes";
-import CombinationBox from "./components/CombinationBox";
-import MoreRings from "./components/MoreRings";
-import PriceBreakupTable from "./components/PriceBreakupTable";
-import MobileCertifate from "./components/MobileCertifate";
-import SocialMedia from "./components/SocialMedia";
-import SimilarSingleProduct from "./components/similar products/SimilarSingleProduct";
-import MobileAllSimilarProducts from "./components/similar products/MobileAllSimilarProducts";
-import MobileFindStore from "./components/find store/MobileFindStore";
-import MobileFindStoreCard from "./components/find store/MobileFindStoreCard";
-import { StickyAddToCart } from "./components/StickyAddToCart";
-import DesktopMainProduct from "./components/DesktopMainProduct";
-import DesktopProductInformation from "./components/DesktopProductInformation";
-import ProductInfoAndFourBox from "./components/ProductInfoAndFourBox";
 import DesktopVersion from "./components/DesktopVersion";
 import MobileVersion from "./components/MobileVersion";
-
+import {MainWrapper } from "./App.Styles"
 const App = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
     <>
-      {/* <MainWrapper> */}
-      {/* {windowWidth <= 767 ? <MobileNavbar /> : <DesktopNavbar />} */}
-      {/* {windowWidth <= 767 ? <MainProduct /> : <DesktopMainProduct />} */}
-      {/* <MainProduct /> */}
-      {/* <DesktopMainProduct/> */}
-      {/* {windowWidth <= 767 ? <MobilePriceSection /> : null} */}
-      {/* {windowWidth <= 767 ? <MobileCustomizeProduct /> : null} */}
-      {/* <MobilePriceSection /> */}
-      {/* <MobileCustomizeProduct /> */}
-
-      {/* {windowWidth <= 767 ? (
-          <ProductInformation />
-        ) : (
-          null
-        )} */}
-      {/* <ProductInformation /> */}
-
-      {/* {windowWidth <= 767 ? <Boxes /> : null} */}
-      {/* <Boxes /> */}
-      {/* {windowWidth <= 767 ? null : <ProductInfoAndFourBox />} */}
-
-      {/* <CombinationBox />
-        <MoreRings />
-        <PriceBreakupTable />
-        <MobileCertifate />
-        <SocialMedia /> */}
-      {/* <SimilarSingleProduct/> */}
-      {/* <MobileAllSimilarProducts />
-        <MobileFindStore /> */}
-      {/* <MobileFindStoreCard/> */}
-      {/* <StickyAddToCart /> */}
-      {/* </MainWrapper> */}
-
       <MainWrapper>
-        {windowWidth <= 767 ? <MobileVersion /> : <DesktopVersion />}
+        <div className="main-wrapper">
+          <div className="mobile-version">
+            <MobileVersion />
+          </div>
+          <div className="desktop-version">
+            <DesktopVersion />
+          </div>
+        </div>
       </MainWrapper>
     </>
   );
 };
 
-const MainWrapper = styled.section`
-  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-  * {
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-`;
 export default App;
