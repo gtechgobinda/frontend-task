@@ -11,9 +11,9 @@ const DesktopSimilarStyle = () => {
             <span>STYLES</span>
           </section>
 
-          <section className="line">
+          {/* <section className="line">
             <img src={bigline} alt="" />
-          </section>
+          </section> */}
 
           <section className="discover-all">
             <span>Discover all &gt;&gt;</span>

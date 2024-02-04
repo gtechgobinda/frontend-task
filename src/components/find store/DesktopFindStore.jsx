@@ -11,7 +11,7 @@ const DesktopFindStore = () => {
               Have to see it to believe it? Check here if the design is
               available in the store or not. You can also book an appointment
             </p>
-            <input type="text" placeholder="Enter Pincode" />
+            <input className="input"type="text" placeholder="Enter Pincode" />
             <section className="view-store-btn">
                 <span className="btn">View Store & Design</span>
             </section>

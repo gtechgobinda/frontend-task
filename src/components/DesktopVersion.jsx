@@ -16,7 +16,7 @@ const DesktopVersion = () => {
           <DesktopPriceBreakupTable />
           <DesktopCertifate />
           {/* <MobileCertifate/> */}
-          <SocialMedia />
+          {/* <SocialMedia /> */}
           <DesktopSimilarStyle />
           <DesktopSimilarProducts />
           <DesktopCompleteLook />
